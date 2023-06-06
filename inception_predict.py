@@ -63,8 +63,6 @@ def predict(filename, mod, synsets, N=5):
 
 # Code to download an image from the internet and run a prediction on it
 def predict_from_url(url, N=5):
-    #filename = url.split("/")[-1]
-    #urlretrieve(url, filename)
     filename = wget.download(url)
     print (filename)
     img = cv2.imread(filename)

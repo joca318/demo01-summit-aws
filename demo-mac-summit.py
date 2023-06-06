@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # recyclesorter.py
 #version http.server + cgi
+# version created for a demo purpose
 
 from AWSIoTPythonSDK.MQTTLib import AWSIoTMQTTClient
 from datetime import datetime
